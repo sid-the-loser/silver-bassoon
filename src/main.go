@@ -17,5 +17,6 @@ func main() {
 
 	formattedString := fmt.Sprintf("%s %d %d", filename, *winWidth, *winHeight)
 
-	fmt.Printf(formattedString)
+	fmt.Printf(formattedString) // just printing the formatted text for now,
+	// will work on the rest of the logic later
 }
