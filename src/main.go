@@ -5,6 +5,8 @@ import (
 	"fmt"
 )
 
+var version = "1.0.0"
+
 func main() {
 	winWidth := flag.Int("width", 800, "The width of the Pygame window")
 	winHeight := flag.Int("height", 600, "The height of the Pygame window")
