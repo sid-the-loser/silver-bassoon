@@ -1,2 +1,2 @@
 # Silver Bassoon
-A pygame project template generator.
+A Pygame project template generator.
