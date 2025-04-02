@@ -1,3 +1,6 @@
+# (added) Removing GoLand folder
+.idea/
+
 # (added) Test folder
 testing/
 
