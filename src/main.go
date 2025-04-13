@@ -28,7 +28,7 @@ func main() {
 		return
 	}
 
-	filename := flag.Arg(0)
+	filename := flag.Arg(0) // getting the arguments passed through after the flags
 
 	if len(filename) == 0 { // no filename used
 		log.Fatalln("No filename provided to generate the Pygame script! " + commonErrorSuffix)
@@ -40,4 +40,5 @@ func main() {
 		log.Fatalln("The filename you've passed doesn't exist!") // if file doesn't exist
 	}
 
+	// do the rest of the program, i can't think properly
 }
